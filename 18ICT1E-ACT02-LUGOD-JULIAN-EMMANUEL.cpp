@@ -1,4 +1,4 @@
-/*ACTIVITY #2 - STUDENT INFORMATION USING VARIABLE DECLARATION
+/*ACTIVITY #2
 *
 *PROGRAMMED AND SUBMITTED BY:
 *Lugod, Julian Emmanuel O.
@@ -26,11 +26,11 @@ using namespace std;
 		School_Name,
 		School_Address,
 		Home_Address,
-		Course;
+		Course,
+		Contact_Number;
 
 	int age,
-		Student_Number,
-		Contact_Number = 0;
+		Student_Number;
 
 	//INPUTING FOR FIRST AREA
 	cout << "ENTER YOUR FIRST NAME: ";
