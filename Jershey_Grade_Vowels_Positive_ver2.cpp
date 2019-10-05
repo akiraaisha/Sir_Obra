@@ -70,27 +70,27 @@ int main() {
 		}
 		break;
 
-	case 2:{
+	case 2: {
 		char letter_input[255];
 		cout << endl << "Enter a Letter: ";
 		cin >> letter_input;
 
-		for (int i=0; i < strlen(letter_input); i++){
-		if (isdigit(letter_input[i])) {
-			cout << letter_input << " is not a letter. Invalid input.";
-			break;
-		}
-		
-		else if (letter_input[i] == 'A' || letter_input[i] == 'E' || letter_input[i] == 'I' || letter_input[i] == 'O' || letter_input[i] == 'U' ||
-			letter_input[i] == 'a' || letter_input[i] == 'e' || letter_input[i] == 'i' || letter_input[i] == 'o' || letter_input[i] == 'u') {
-			cout << letter_input[i] << " is a vowel.\n";
-		}
-		else {
-			cout << letter_input[i] << " is a consonant.\n";
-		}
+		for (int i = 0; i < strlen(letter_input); i++) {
+			if (isdigit(letter_input[i])) {
+				cout << letter_input << " is not a letter. Invalid input.";
+				break;
+			}
+
+			else if (letter_input[i] == 'A' || letter_input[i] == 'E' || letter_input[i] == 'I' || letter_input[i] == 'O' || letter_input[i] == 'U' ||
+				letter_input[i] == 'a' || letter_input[i] == 'e' || letter_input[i] == 'i' || letter_input[i] == 'o' || letter_input[i] == 'u') {
+				cout << letter_input[i] << " is a vowel.\n";
+			}
+			else {
+				cout << letter_input[i] << " is a consonant.\n";
+			}
 		}
 	}
-		break;
+		  break;
 
 	case 3:
 		int number_input;
