@@ -76,7 +76,7 @@ int main() {
 		cin >> letter_input;
 		
 		if (isdigit(letter_input)) {
-			cout << letter_input << " is not a number. Invalid input.";
+			cout << letter_input << " is not a letter. Invalid input.";
 		}
 		else if (letter_input == 'A' || letter_input == 'E' || letter_input == 'I' || letter_input == 'O' || letter_input == 'U' ||
 			letter_input == 'a' || letter_input == 'e' || letter_input == 'i' || letter_input == 'o' || letter_input == 'u') {
