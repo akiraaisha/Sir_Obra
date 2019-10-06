@@ -1,8 +1,10 @@
 #include <iostream>
-//#include <string>
-using namespace std;
+#include <string>
+#include <cstring>
+
 
 int main() {
+	using namespace std;
 	int input_option;
 	cout << "PROGRAM MENU: " << endl << "1. GRADE COMPUTATION" << endl << "2. Vowels and Consonants" << endl << "3. Positive and Negative Numbers" << endl;
 	cout << "Select an option 1-3: ";
