@@ -10,7 +10,7 @@ void getMinutes();
 void displayTime();
 int main() {
 	for (;;){//infinite loop
-		getHour();//Call this Function(Line 37) and it's conditions 
+		getHour();//Call this Function(Line 35) and it's conditions 
 		if (hour > 24 || hour == 0) {//if the hour is greater than 24, go back to start.
 			cout << "Invalid Input. Should not exceed from 24 and cant be 0. Try again" << endl;
 			main();
@@ -23,16 +23,15 @@ int main() {
 			noon = "AM";
 		}
 
-		getMinutes();//Call this Function(Line 42) and it's conditions
+		getMinutes();//Call this Function(Line 40) and it's conditions
 		if (minutes > 59) {//if minutes is greater than 59, go back to start.
 			cout << "Invalid Input. Should not exceed from 59. Try Again" << endl;
 			main();
 		}
 		
-		displayTime();//Display Time(Line 47)
+		displayTime();//Display Time(Line 45)
 	}
 }
-
 void getHour() {
 	cout << "Enter Hour: ";
 	cin >> hour;
